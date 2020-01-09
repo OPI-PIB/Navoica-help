@@ -138,7 +138,7 @@
             <form id="search-form">
               <div class="form-group">
                 <div class="input-group">
-                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Szukaj..." />
                   <span class="input-group-btn">
                     <button class="btn btn-default" type="submit">
                       <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
@@ -185,29 +185,29 @@
             <div class="main-content">
                 
 <p></p>
-<p class="rvps5"><span class="rvts14">Składnia OLX pozwala na wzbogacenie każdego pytania o podpowiedzi oraz złożoną odpowiedź zwrotną.</span></p>
-<p class="rvps5"><span class="rvts14">Przyjrzyjmy się jak wygląda szablon pytania wielokrotnego wyboru z podpowiedzią i odpowiedzią zwrotną:</span></p>
-<p class="rvps7"><span class="rvts14"><br/></span></p>
-<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/M3L2_21_feedback.jpg"></p>
-<p class="rvps7"><span class="rvts14"><br/></span></p>
-<p class="rvps5"><span class="rvts14">Do każdej dostępnej odpowiedzi możemy dodać informację zwrotną uwzględniającą czy dana odpowiedź została zaznaczona czy też nie. Taką informację trzeba zawrzeć w nawiasach klamrowych korzystając przy tym ze słów kluczowych </span><span class="rvts28">selected</span><span class="rvts15">&nbsp;</span><span class="rvts14">i </span><span class="rvts28">unselected</span><span class="rvts14">. Informacja po słowie kluczowym </span><span class="rvts28">selected</span><span class="rvts15">&nbsp;</span><span class="rvts14">pojawi się tylko wtedy kiedy uczestnik zaznaczy daną odpowiedź i&nbsp;prześle pytanie do oceny. Z kolei informacja zawarta po słowie kluczowym </span><span class="rvts28">unselected</span><span class="rvts15">&nbsp;</span><span class="rvts14">pojawi się tylko wtedy, kiedy uczestnik nie zaznaczy danej odpowiedzi i prześle pytanie do oceny. Na przykład:</span></p>
-<p class="rvps5"><span class="rvts14"><br/></span></p>
-<p class="rvps7"><span class="rvts15">[x] prawidłowa odpowiedź {{ selected: Świetnie! to jest jedna z prawidłowych odpowiedzi. }, { unselected: Przypomnij sobie pierwszy wykład w tej lekcji i zastanów się nad znaczeniem tej opcji.}}</span><br/><span class="rvts15"></span><br/><span class="rvts15">[ ] nieprawidłowa odpowiedź {{ selected: Niestety to nie jest prawidłowa odpowiedź. }, { unselected: Bardzo dobrze, to nie jest prawidłowa odpowiedź na pytanie.}}</span></p>
-<p class="rvps7"><span class="rvts14"><br/></span></p>
-<h3 class="rvps10"><span class="rvts0"><span class="rvts15">Złożona odpowiedź zwrotna</span></span></h3>
-<p class="rvps5"><span class="rvts14">Składnia OLX pozwala także na przygotowanie złożonej informacji zwrotnej w zależności od tego jaką kombinację odpowiedzi zaznaczył uczestnik, np. inna informacja może się pojawić przy zaznaczeniu odpowiedzi A, B i D, a inna przy zaznaczeniu A, B, C i D. Informacje te opisujemy poniżej treści samego pytania i odpowiedzi korzystając z następującego schematu:</span></p>
-<p class="rvps5"><span class="rvts14"><br/></span></p>
-<p class="rvps7"><span class="rvts15">{{ ((A B D)) Świetnie, udało Ci się zaznaczyć wszystkie poprawne odpowiedzi! }}</span><br/><span class="rvts15">{{ ((A B C D)) Prawie dobrze, jedna z zaznaczonych przez Ciebie odpowiedzi jest błędna. Wróć do lekcji nr 2, powtórz materiał w niej zawarty i spróbuj odpowiedzieć raz jeszcze. }}</span></p>
-<p class="rvps7"><span class="rvts15"><br/></span></p>
-<h3 class="rvps8"><span class="rvts0"><span class="rvts15">Podpowiedzi</span></span></h3>
-<p class="rvps5"><span class="rvts14">Możesz także tworzyć opcjonalne podpowiedzi do pytań. Pytania mające podpowiedź zawierają przycisk podpowiedzi:</span></p>
-<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/M3L2_22_podpowiedz.jpg"></p>
-<p class="rvps5"><span class="rvts14">Treść podpowiedzi z tego miejsca wyświetli się po pierwszym naciśnięciu przycisku podpowiedzi. Jeśli dodasz więcej niż jedną podpowiedź, za każdym razem kiedy student naciśnie przycisk wyświetli się inna podpowiedź.&nbsp;Nie zaleca się dodawania do pytania więcej niż 3 podpowiedzi.</span></p>
-<p class="rvps5"><span class="rvts14">Aby je dodać do pytania należy wpisać je na sam koniec pytania umieszczając je pomiędzy parą podwójnych pionowych kresek. Na przykład:</span></p>
-<p class="rvps7"><span class="rvts15">||Podpowiedź nr 1||</span><br/><span class="rvts15">||Podpowiedź nr 2||</span><br/><span class="rvts15">||Podpowiedź nr 3||</span></p>
-<p class="rvps7"><span class="rvts27"><br/></span></p>
+<p class="rvps6"><span class="rvts15">Składnia OLX pozwala na wzbogacenie każdego pytania </span><span class="rvts17">o informację zwrotną, podpowiedzi oraz złożoną odpowiedź zwrotną.</span></p>
+<p class="rvps6"><span class="rvts15">Przyjrzyjmy się, jak wygląda szablon pytania wielokrotnego wyboru z podpowiedzią i odpowiedzią zwrotną:</span></p>
+<p class="rvps10"><span class="rvts15"><br/></span></p>
+<p class="rvps12"><img alt="" style="padding : 1px;" src="lib/Navoica_zamkniete_odp_podp.png"></p>
+<p class="rvps10"><span class="rvts15"><br/></span></p>
+<p class="rvps25"><span class="rvts17">Do każdej dostępnej odpowiedzi możemy dodać informację zwrotną. Taką informację wraz ze słowami kluczowymi </span><span class="rvts45">selected</span><span class="rvts17">&nbsp;i&nbsp;</span><span class="rvts45">unselected </span><span class="rvts17">trzeba zawrzeć w nawiasach klamrowych. Informacja po słowie kluczowym&nbsp;</span><span class="rvts45">selected</span><span class="rvts17">&nbsp;pojawi się tylko wtedy, kiedy uczestnik zaznaczy daną odpowiedź i&nbsp;prześle pytanie do oceny. Z kolei informacja zawarta po słowie kluczowym&nbsp;</span><span class="rvts45">unselected</span><span class="rvts17">&nbsp;pojawi się tylko wtedy, kiedy uczestnik nie zaznaczy danej odpowiedzi i prześle pytanie do oceny. Na przykład:</span></p>
+<p class="rvps25"><span class="rvts27"><br/></span></p>
+<p class="rvps10"><span class="rvts16">[x] prawidłowa odpowiedź {{ selected: Świetnie! to jest jedna z prawidłowych odpowiedzi. }, { unselected: Przypomnij sobie pierwszy wykład w tej lekcji i zastanów się nad znaczeniem tej opcji.}}</span><br/><span class="rvts16"></span><br/><span class="rvts16">[ ] nieprawidłowa odpowiedź {{ selected: Niestety to nie jest prawidłowa odpowiedź. }, { unselected: Bardzo dobrze, to nie jest prawidłowa odpowiedź na pytanie.}}</span></p>
+<p class="rvps10"><span class="rvts15"><br/></span></p>
+<h3 class="rvps18"><span class="rvts0"><span class="rvts16">Złożona odpowiedź zwrotna</span></span></h3>
+<p class="rvps25"><span class="rvts17">Składnia OLX pozwala także na przygotowanie złożonej informacji zwrotnej. Pojawia się ona w zależności od tego, jaką kombinację odpowiedzi zaznaczył uczestnik, np. inna informacja może się pojawić przy zaznaczeniu odpowiedzi A, B i D, a inna przy zaznaczeniu A, B, C i D. Informacje te opisujemy poniżej treści samego pytania i odpowiedzi, korzystając z następującego schematu:</span></p>
+<p class="rvps6"><span class="rvts15"><br/></span></p>
+<p class="rvps10"><span class="rvts16">{{ ((A B D)) Świetnie, udało Ci się zaznaczyć wszystkie poprawne odpowiedzi! }}</span><br/><span class="rvts16">{{ ((A B C D)) Prawie dobrze, jedna z zaznaczonych przez Ciebie odpowiedzi jest błędna. Wróć do lekcji nr 2, powtórz materiał w niej zawarty i spróbuj odpowiedzieć raz jeszcze. }}</span></p>
+<p class="rvps10"><span class="rvts16"><br/></span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts16">Podpowiedzi</span></span></h3>
+<p class="rvps6"><span class="rvts15">Możesz także tworzyć opcjonalne podpowiedzi do pytań. Pytania mające podpowiedź zawierają przycisk podpowiedzi:</span></p>
+<p class="rvps12"><img alt="" style="padding : 1px;" src="lib/navoica_podpowiedz1.png"></p>
+<p class="rvps6"><span class="rvts15">Treść podpowiedzi z tego miejsca wyświetli się po pierwszym naciśnięciu przycisku podpowiedzi. Jeśli dodasz więcej niż jedną podpowiedź, za każdym razem, kiedy student naciśnie przycisk, wyświetli się inna podpowiedź.&nbsp;Nie zaleca się dodawania do pytania więcej niż 3 podpowiedzi.</span></p>
+<p class="rvps6"><span class="rvts15">Aby je dodać, należy wpisać je pod pytaniem pomiędzy parą podwójnych pionowych kresek. Na przykład:</span></p>
+<p class="rvps10"><span class="rvts16">||Podpowiedź nr 1||</span><br/><span class="rvts16">||Podpowiedź nr 2||</span><br/><span class="rvts16">||Podpowiedź nr 3||</span></p>
+<p class="rvps10"><span class="rvts44"><br/></span></p>
 <p></p>
-<p class="rvps2" style="clear: both;"><span class="rvts6"> </span><span class="rvts7"></span></p>
+<p class="rvps5" style="clear: both;"><span class="rvts12"> </span><span class="rvts13"></span></p>
 
             </div>
             
